@@ -1,0 +1,16 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "engine": {
+    "node": "12.10.0"
+  },
+  "main": "hangman.js",
+  "author": "Elijah Brown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahbrown/hangman.git"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

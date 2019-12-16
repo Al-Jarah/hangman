@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "mocha": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": ["off", 2, {
+            "SwitchCase": 1
+        }],
+        "linebreak-style": ["warn", "unix"],
+        "no-alert": "off",
+        "no-console": "off",
+        "no-empty": "warn",
+        "no-unused-vars": "warn",
+        "quotes": ["off", "double"],
+        "semi": ["warn", "always"]
+    }
+}
